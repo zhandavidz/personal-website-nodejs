@@ -1,0 +1,11 @@
+div#waiting {
+	display: none;
+}
+
+div#result {
+	display: none;
+}
+
+div#connected {
+	display: none;
+}

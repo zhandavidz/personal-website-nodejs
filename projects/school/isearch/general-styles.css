@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+h6 {
+	font-size: 14px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.link {
+	color: #8B00FF;
+}
+
+a.link:hover {
+	text-decoration: underline;
+}
+
+a.citation {
+	color: #259130;
+}
+
+a.citation:hover {
+	text-decoration: underline;
+}

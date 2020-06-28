@@ -1,0 +1,15 @@
+article p {
+	text-indent: 0;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.interviewer {
+	margin-bottom: -28px;
+}
+
+#citation {
+	margin-top: 100px;
+}

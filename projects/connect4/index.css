@@ -1,0 +1,57 @@
+	html {
+		background-color: #011BFF;
+	}
+
+	* {
+		/*background-color: #FFFF2F;*/
+		font-family: Times;
+	}
+
+	table, td {
+/*		border-collapse: collapse;*/
+		/*width: 80vw;*/
+		margin: auto;
+/*		border: 2px solid #011BFF;*/
+/*		border-color: #011BFF;
+		border-width: 2px;
+*/	}
+
+	button {
+		height: 40px;
+		width: 80px;
+		font-size: 30px;
+		color: yellow;
+		background-color: red;
+	}
+
+	td {
+		border: 1px solid black;
+		height: 12vh;
+		width: 12vh;
+		/*border-radius: 6vh;*/
+	}
+
+	h1 {
+		text-align: center;
+		background-color: #011BFF;
+	}
+
+	h3 {
+		text-align: center;
+		color: #8A4FFF;
+	}
+
+	.Red {
+		background-color: red;
+	}
+
+	.Black {
+		background-color: black;
+	}
+	tbody {
+		background-color: #FFFF2F;
+	}
+/*
+	#gameBoard {
+		background-color: #FFFF2F;
+	}*/

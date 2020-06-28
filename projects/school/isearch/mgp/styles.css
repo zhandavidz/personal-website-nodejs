@@ -1,0 +1,111 @@
+h2 {
+	text-align: center;
+	font-size: 32px;
+}
+
+article p {
+	text-indent: 0;
+}
+
+.address {
+	margin-top: 0;
+}
+
+#toc-skip {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+#toc-skip a {
+	border-radius: 50px;
+	border: 5px solid #41EABD;
+	background-color: #41EABD;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 30px;
+}
+
+#toc-skip a:hover {
+	background-color: aquamarine;
+}
+
+#sincerely {
+	margin-bottom: 8px;
+}
+
+#after-sig {
+	margin-top: 0;
+}
+
+#toc {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+/**/
+
+#sub-nav {
+	display: block;
+	text-align: center;
+	background-color: #f1f1f1; /*light gray*/
+	width: 600px;
+	padding: 10px;
+	padding-top: 1px;
+	padding-bottom: 20px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sub-nav a {
+	display: block;
+	margin: 0;
+	margin-top: 20px;
+}
+
+#sub-nav a div.content {
+	margin: 2px;
+	padding: 10px;
+	width: 480px;
+	display: inline-block;
+	text-align: left;
+}
+
+#sub-nav a > div {
+	display: inline-block;
+	color: #00B085;
+	padding: 10px;
+}
+
+#sub-nav a div h3 {
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+
+#sub-nav a > div:hover {
+	background-color: #e4e4e4; /*slightly darker light gray*/
+}
+
+#sub-nav .num {
+	display: inline-block;
+	/*text-align: center;*/
+}
+
+#sub-nav .num h4 {
+	font-size: 82px;
+}
+
+#sub-nav .content {
+	display: inline-block;
+}
+
+/*
+@media only screen and (min-width: 1300px) {
+	#sub-nav {
+		width: 550px;
+		margin: auto;
+	}
+}*/

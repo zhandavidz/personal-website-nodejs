@@ -1,0 +1,44 @@
+article {
+	margin: auto;
+	margin-top: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+article p {
+	font-size: 20px;
+	margin-top: 30px;
+	line-height: 35px;
+	text-indent: 50px;
+}
+
+article h2 {
+	text-align: center;
+	font-size: 32px;
+}
+
+article h3 {
+	text-align: center;
+	font-weight: 600;
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+.full-img {
+	display: block;
+	width: 80vw;
+	margin: auto;
+	margin-top: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+	article {
+		width: 900px;
+	}
+	.full-img {
+		display: block;
+		width: 800px;
+		margin: auto;
+		margin-top: 20px;
+	}
+}

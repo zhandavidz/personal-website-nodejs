@@ -1,0 +1,74 @@
+/*
+THIS IS CREATED BY DAVID ZHAN
+ALL RIGHTS RESERVED
+*/
+
+
+
+body {
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 50px;
+}
+td {
+	height: 150px;
+	width: 150px;
+}
+table {
+	border: collapse;
+	margin: auto;
+	padding: 0;
+}
+
+/*p {
+	font-size: 125px;
+}*/
+
+#a1 {
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+}
+#b1 {
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+}
+#c1 {
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+}
+
+#a2 {
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-top: 3px solid black
+}
+#b2 {
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	border-top: 3px solid black;
+}
+#c2 {
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-top: 3px solid black;
+}
+
+#a3 {
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+}
+#b3 {
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+}
+#c3 {
+	border-top: 3px solid black;
+	border-left: 3px solid black;
+}

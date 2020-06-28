@@ -1,0 +1,219 @@
+<!--
+
+
+
+               _._   \  O      ___       O @
+       O-.      | _._ \/ _>   /   \      _\|__
+        \/)     |  |  _[_][_]|     |    / ( )_\
+        | (U    |  |  \ |  |  \___/   ;/__)_(
+       /|      /|\/|\ ~/|\/|\  /|\       (   )
+      / /                                / |  \
+      ~ ~                                ~     ~
+
+This explanation of Newton's Laws of Motion was created by David Zhan.
+
+Please to not copy his code without his expicit approval.
+
+============vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv============
+============vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv============
+>>>>>>>>>>>>THIS PROJECT WAS MADE FOR A PROJECT IN ALBANY MIDDLE SCHOOL<<<<<<<<<<<<
+============^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^============
+============^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^============
+
+
+ ,gggggggggggg,                                               ,gggggggg,
+dP"""88""""""Y8b,                                        8I  d8P""""""Y8b,   ,dPYb,
+Yb,  88       `8b,                                       8I  88,_a     `8b   IP'`Yb
+ `"  88        `8b                          gg           8I  `Y8P"      88   I8  8I
+     88         Y8                          ""           8I             88   I8  8'
+     88         d8  ,gggg,gg     ggg    gg  gg     ,gggg,8I            d8'   I8 dPgg,     ,gggg,gg   ,ggg,,ggg,
+     88        ,8P dP"  "Y8I    d8"Yb   88bg88    dP"  "Y8I         _,d8'    I8dP" "8I   dP"  "Y8I  ,8" "8P" "8,
+     88       ,8P'i8'    ,8I   dP  I8   8I  88   i8'    ,8I       d8888ba,   I8P    I8  i8'    ,8I  I8   8I   8I
+     88______,dP',d8,   ,d8b,,dP   I8, ,8I_,88,_,d8,   ,d8b,          "Y88b,,d8     I8,,d8,   ,d8b,,dP   8I   Yb,
+    888888888P"  P"Y8888P"`Y88"     "Y8P" 8P""Y8P"Y8888P"`Y8          ,d888888P     `Y8P"Y8888P"`Y88P'   8I   `Y8
+                                                                    ,8P"  88
+                                                                   d8'    88
+                                                                  d8'    ,88
+                                                                  88     d8'
+                                                                  Y8,_ _,8P
+                                                                   "Y888P"
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<!---->
+		<link rel="stylesheet" href="index.css">
+		
+  		<title>Newton's Laws of Motion</title>
+		
+	</head>
+	<!---->
+	<body>
+	    <h1>Newton's First Law of Motion</h1>
+
+	    <table id="navTable">
+	    	<tr>
+	    		<td class="nav">
+	    			
+	    		</td>
+	    		<td class="nav">
+	    			<a href="../index.html">
+	    				<div id="navHome">
+	    					<img src="../images/home.png">
+	    				</div>
+	    			</a>
+	    		</td>
+	    		<td class="nav">
+	    			<a href="../second/index.html">
+	    				<div id="navRight">
+	    					<h2>Second Law<img src="../images/right-arrow.png"></h2>
+	    				</div>
+	    			</a>
+	    		</td>
+	    	</tr>
+	    </table>
+
+
+	    <div id="explanation">
+		    <table>
+		    	<tr>
+		    		<td id="intro" colspan="3">
+		    			<p>
+		    			Newton&apos;s First Law of Motion States that:
+		    			</p>
+
+		    			<p>       
+		    			<i>An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.</i>
+		    			</p>
+
+		    			<p>
+		    			Even though that may seem like a lot, it is actually really simple. You can compare it to diving off a swim block at a swim meet. The first part of the law: <i>An object at rest stays at rest</i>, relates to when you are on the block, ready to spring forward, but not moving yet. The second part of the law: <i>an object in motion stays in motion with the same speed and in the same direction</i>, relates to when you spring off the block and you are in the air.
+		    			</p>
+		    		</td>
+		    	</tr>
+
+		    		<tr class="hspacer">
+		    			<td class="hspacer" colspan="3">
+		    				
+		    			</td>
+		    		</tr>
+		    		
+		    	<tr>
+		    		<td id="titleBlock" class="description">
+		    			<h3>On the block:</h3>
+		    		</td>
+
+		    				<td class="wspacer"></td>
+
+		    		<td id="titleAir" class="description">
+		    			<h3>In the air:</h3>
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td>
+		    			<img src="../images/diagrams/block.png" />
+		    		</td>
+
+		    				<td class="wspacer"></td>
+
+		    		<td>
+		    			<img src="../images/diagrams/diving.png" />
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td class="description">
+		    			<p>
+		    				The first law says that when you aren&apos;t moving, you will stay not moving. That means that if you are on the block and you aren&apos;t moving yet, you won’t suddenly fly up of backwards.
+		    			</p>
+		    		</td>
+
+		    				<td class="wspacer"></td>
+
+		    		<td class="description">
+		    			<p>
+		    				The first law says that when you are moving, you will keep moving the same way, meaning that you won&apos;t change direction or speed. That means that when you are diving, you won&apos;t suddenly go backwards or stop moving and float in the air.
+		    			</p>
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td class="description">
+		    			<p>
+		    				<i>Unless acted upon by an unbalanced force.</i>
+		    			</p>
+		    		</td>
+
+		    				<td class="wspacer"></td>
+
+		    		<td class="description">
+		    			<p>
+		    				<i>Unless acted upon by an unbalanced force.</i>
+		    			</p>
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td class="description">
+		    			<p>
+		    				What unbalanced force?
+		    			</p>
+		    			<p>
+							An unbalanced force is a force that is applied on the object in question. When an unbalanced force is applied on an object, Newton&apos;s First Law doesn&apos;t work anymore.
+		    			</p>
+		    		</td>
+
+		    				<td class="wspacer"></td>
+
+		    		<td class="description">
+		    			<p>
+		    				What unbalanced force?
+		    			</p>
+		    			<p>
+							An unbalanced force is a force that is applied on the object in question. When an unbalanced force is applied on an object, Newton&apos;s First Law doesn&apos;t work anymore.
+		    			</p>
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td id="exampleBlock" class="description">
+		    			<p>
+		    				Example:
+		    			</p>
+		    			<p>
+		    				If your friend pushes you off your block, you won&apos;t stay not moving, you will fly off the block.
+		    			</p>
+		    		</td>
+
+		    				<td class="wspacer"></td>
+
+		    		<td id="exampleAir" class="description">
+		    			<p>
+		    				Example:
+		    			</p>
+		    			<p>
+		    				If someone in the water tackles you into the water, you won&apos;t keep going forward at the same speed, you will drop straight down.
+		    			</p>
+		    		</td>
+		    	</tr>
+		    </table>
+		</div>
+    </body>
+</html>

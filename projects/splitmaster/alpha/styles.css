@@ -1,0 +1,36 @@
+
+
+form#getLanes {
+	margin: auto;
+	text-align: center;
+}
+
+table#times {
+	margin: auto;
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+table#times tr#header {
+	background-color: #E3E3E3;
+}
+table#times td {
+	border: 2px solid black;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+}
+table#times td.lap {
+	padding: 0;
+	width: 50px;
+}
+table#times td.lap button {
+	padding: 5px;
+	font-size: 20px;
+	width: auto;
+}
+
+div#control {
+	text-align: center;
+	display: block;
+	margin-top: 30px;
+}

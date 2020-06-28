@@ -1,0 +1,31 @@
+#article-title {
+	margin-bottom: 30px;
+}
+
+article p {
+	margin-top: 20px;
+}
+
+#sub-nav {
+	display: block;
+	text-align: center;
+}
+
+#sub-nav a {
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
+#sub-nav a > div {
+	margin: 5px;
+	width: 350px;
+	height: 350px;
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	color: green;
+}
+
+#sub-nav a > div:hover {
+	color: lightgreen;
+}

@@ -1,0 +1,68 @@
+
+
+
+use a table to represent our 7x6 grid
+one extra row on top to hold drop buttons
+
+
+
+one player clicks on a drop button
+
+
+place their color piece into the lowest available space
+
+
+did they win?
+
+
+if they won, game is over
+
+
+if they didn't win, go to other player; repeat
+
+
+
+
+
+svadgbasdfba svrtvga
+
+
+
+
+		
+
+
+		// var hasClassRed = $( 'tr:nth-child(' + row + ') > td' )[i]
+		// // .hasClass( "red" );
+		// console.log(hasClassRed);
+
+		// var hasClassBlack = $( 'tr:nth-child(' + row + ') > td' )[i]
+		// // .hasClass( "black" );
+		// console.log(hasClassBlack);
+
+
+		// console.log(i + "thingymajigy");
+
+
+		}
+
+
+
+		// $( 'tr:nth-child(' + row  + ') > td' )[i];
+
+
+
+	// );
+
+
+
+	// vertical (column) check
+
+
+	// neg slope check
+
+
+	// positive slope check
+
+
+
